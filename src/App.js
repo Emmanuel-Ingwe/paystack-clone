@@ -1,10 +1,13 @@
 import React from 'react';
+import Navbar from "./component/Navbar";
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 const App = () => {
   return (
-    <div>App
+    <div className="bg-gray-100 w-full h-full overflow-hidden text-green-500 flex">
+      <Navbar />
+
       {/* <BrowserRouter>
         <Routes>
           {/* <Route path="/" element={(< />)} /> */}
