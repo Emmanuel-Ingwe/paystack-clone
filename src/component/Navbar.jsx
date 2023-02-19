@@ -23,16 +23,16 @@ const Navbar = (props) => {
 			</div>
 			<div>
 				<ul className='flex px-6 mt-1.5 font-semibold' key={""}>
-					<div className='flex px-4'>
+					<div className='flex px-2'>
 						<li>Developers</li>
 						<img src='' alt='i' />
 					</div>
-					<div className='flex'>
+					<div className='flex px-2'>
 						<li>Support</li>
 						<img src='' alt='i' />
 					</div>
-					<li>Login</li>
-					<button>Create free account</button>
+					<li className='px-2'>Login</li>
+					<button className='px-4'>Create free account</button>
 					<img src='' alt='flg' />
 				</ul>
 			</div>
