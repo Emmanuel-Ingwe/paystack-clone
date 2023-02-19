@@ -8,14 +8,14 @@ const Navbar = (props) => {
 				<img src={copyImg} alt='logo' width={28} className='mr-1 mt-1.5' />
 				<h1 className='text-2xl font-bold'>paystack</h1>
 
-				<ul className='flex px-6 mt-1.5 font-semibold' key={""}>
+				<ul className='flex px-5 mt-1.5 font-semibold ' key={""}>
 					<div className='flex'>
 						<li className='font-semibold'>Why Paystack</li>
 						<img src='' alt='i' />
 					</div>
-					<li>Customers</li>
+					<li className='px-4'>Customers</li>
 					<li>Pricing</li>
-					<div className='flex'>
+					<div className='flex px-4'>
 						<li>Learn</li>
 						<img src='' alt='i' />
 					</div>
@@ -23,13 +23,13 @@ const Navbar = (props) => {
 			</div>
 			<div>
 				<ul className='flex px-6 mt-1.5 font-semibold' key={""}>
-					<div className='flex'>
+					<div className='flex px-4'>
 						<li>Developers</li>
-						<img src='' alt='icon' />
+						<img src='' alt='i' />
 					</div>
 					<div className='flex'>
 						<li>Support</li>
-						<img src='' alt='icon' />
+						<img src='' alt='i' />
 					</div>
 					<li>Login</li>
 					<button>Create free account</button>
