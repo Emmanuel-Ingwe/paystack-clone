@@ -31,7 +31,7 @@ const Navbar = (props) => {
 						<li>Support</li>
 						<img src='' alt='i' />
 					</div>
-					<li className='px-2'>Login</li>
+					<li className=''>Login</li>
 					<button className='px-4'>Create free account</button>
 					<img src='' alt='flg' />
 				</ul>
