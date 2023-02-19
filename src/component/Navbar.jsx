@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Copy from './Copy.png';
 
 const Navbar = (props) => {
   return (
-    <nav className="m-20 flex">
-        <h1>Paystack</h1>
-    </nav>
+    // <nav className="w-full flex py-6 justify-between items-center navbar">
+      <img src={Copy} alt="logo" />
+    //   {/* <h1>Paystack</h1>
+    // </nav> */}
 
   )
 }

@@ -5,7 +5,7 @@ import Navbar from "./component/Navbar";
 
 const App = () => {
   return (
-    <div className="bg-gray-100 w-full h-full overflow-hidden text-green-500 flex">
+    <div className="bg-gray-100 w-full h-full overflow-hidden">
       <Navbar />
 
       {/* <BrowserRouter>
