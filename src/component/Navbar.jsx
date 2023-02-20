@@ -37,7 +37,12 @@ const Navbar = (props) => {
 					<button className='px-4 bg-green-500 text-white rounded-lg leading-10 mt-3 mr-4 ml-4'>
 						Create free account
 					</button>
-					<img src={flag} width={18} className='h-3 mt-5' alt='flg' />
+					<img
+						src={flag}
+						width={17}
+						className='h-3 mt-5 rounded-sm'
+						alt='flg'
+					/>
 				</ul>
 			</div>
 		</nav>
