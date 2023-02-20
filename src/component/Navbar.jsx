@@ -1,5 +1,6 @@
 import React from "react";
 import copyImg from "../images/Copy.png";
+import dropArrow from "../images/drop-down-arrow.svg";
 
 const Navbar = (props) => {
 	return (
@@ -11,13 +12,13 @@ const Navbar = (props) => {
 				<ul className='flex px-5 mt-1.5 font-semibold ' key={""}>
 					<div className='flex'>
 						<li className='font-semibold'>Why Paystack</li>
-						<img src='' alt='i' />
+						<img src={dropArrow} width={20} alt='i' />
 					</div>
 					<li className='px-4'>Customers</li>
 					<li>Pricing</li>
 					<div className='flex px-4'>
 						<li>Learn</li>
-						<img src='' alt='i' />
+						<img src={dropArrow} width={20} alt='i' />
 					</div>
 				</ul>
 			</div>
@@ -25,11 +26,11 @@ const Navbar = (props) => {
 				<ul className='flex px-6 mt-1.5 font-semibold' key={""}>
 					<div className='flex px-2'>
 						<li>Developers</li>
-						<img src='' alt='i' />
+						<img src={dropArrow} width={20} alt='i' />
 					</div>
 					<div className='flex px-2'>
 						<li>Support</li>
-						<img src='' alt='i' />
+						<img src={dropArrow} width={20} alt='i' />
 					</div>
 					<li className=''>Login</li>
 					<button className='px-4'>Create free account</button>
