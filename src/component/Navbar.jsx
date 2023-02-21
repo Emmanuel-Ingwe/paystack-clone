@@ -5,7 +5,7 @@ import flag from "../images/ng.svg";
 
 const Navbar = (props) => {
 	return (
-		<nav className='w-full flex mt-2 justify-between justify-items-center items-center navbar'>
+		<nav className='w-full flex mt-2 justify-between justify-items-center items-center navbar color'>
 			<div className='flex ml-12'>
 				<img src={copyImg} alt='logo' width={28} className='mr-1 mt-1.5' />
 				<h1 className='text-2xl font-bold'>paystack</h1>
@@ -34,7 +34,7 @@ const Navbar = (props) => {
 						<img src={dropArrow} width={8} className='mr-3.5' alt='i' />
 					</div>
 					<li className='mt-3'>Login</li>
-					<button className='px-4 bg-green-500 text-white rounded-lg leading-10 mt-3 mr-4 ml-4'>
+					<button className='px-4 bg-green-500 text-white rounded-lg leading-10 mt-1 mr-4 ml-4'>
 						Create free account
 					</button>
 					<img
