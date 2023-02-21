@@ -1,4 +1,12 @@
 .App {
-  text-align: center;
+	height: 100vh;
+	background-color: #f1fef4f2;
 }
 
+* {
+	scroll-behavior: smooth;
+}
+
+.color {
+	color: #011b33;
+}
