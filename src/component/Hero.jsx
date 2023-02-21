@@ -20,7 +20,7 @@ const Hero = () => {
 				</button>
 			</div>
 
-			<div>
+			<div className='flex w-full  mt-10 justify-between justify-items-center items-center'>
 				<div>
 					<p>Trusted by over 70,000 business</p>
 					<img src='' alt='..' />
@@ -33,6 +33,7 @@ const Hero = () => {
 						Watch MTN Chief Transformation Officer, Olubayo Adekanmbi, discuss
 						working with Paystack
 					</p>
+					<img src='' alt=',,' />
 				</div>
 			</div>
 		</div>
