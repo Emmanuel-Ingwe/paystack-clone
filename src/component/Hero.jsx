@@ -19,6 +19,22 @@ const Hero = () => {
 					or Contact Sales
 				</button>
 			</div>
+
+			<div>
+				<div>
+					<p>Trusted by over 70,000 business</p>
+					<img src='' alt='..' />
+					<img src='' alt='..' />
+					<img src='' alt='..' />
+					<img src='' alt='..' />
+				</div>
+				<div>
+					<p>
+						Watch MTN Chief Transformation Officer, Olubayo Adekanmbi, discuss
+						working with Paystack
+					</p>
+				</div>
+			</div>
 		</div>
 	);
 };
