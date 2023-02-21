@@ -8,7 +8,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className="App w-full h-full overflow-hidden bg-green-200">
+    <div className="App w-full h-full bg-green-200">
       <Navbar />
       <Hero />
 

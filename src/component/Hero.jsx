@@ -15,7 +15,9 @@ const Hero = () => {
 				<button className='px-9 p-1.5 bg-green-500 text-white rounded-lg leading-10 font-semibold'>
 					Create a free account
 				</button>
-				<button>or Contact Sales</button>
+				<button className='px-8 text-green-500 font-semibold'>
+					or Contact Sales
+				</button>
 			</div>
 		</div>
 	);
