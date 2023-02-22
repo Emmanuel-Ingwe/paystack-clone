@@ -1,5 +1,10 @@
 import React from "react";
 
+import Dominos from "../images/dominos.svg";
+import Mtn from "../images/Mtn.svg";
+import boltImg from "../images/Bolt.svg";
+import Axa from "../images/Axa.svg";
+
 const Hero = () => {
 	return (
 		<div className='m-40 mt-40'>
@@ -24,10 +29,10 @@ const Hero = () => {
 				<div>
 					<p className='font-semibold'>Trusted by over 70,000 business</p>
 					<div className='flex justify-around'>
-						<img src='' alt='..' />
-						<img src='' alt='..' />
-						<img src='' alt='..' />
-						<img src='' alt='..' />
+						<img src={Dominos} alt='..' />
+						<img src={Mtn} alt='..' />
+						<img src={boltImg} alt='..' />
+						<img src={Axa} alt='..' />
 					</div>
 				</div>
 				<div>
