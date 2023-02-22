@@ -1,9 +1,9 @@
 import React from "react";
 
-import Dominos from "../images/dominos.svg";
-import Mtn from "../images/Mtn.svg";
-import boltImg from "../images/Bolt.svg";
-import Axa from "../images/Axa.svg";
+// import Dominos from "../images/dominos.svg";
+// import Mtn from "../images/Mtn.svg";
+// import { ReactComponent as Bolt } from "../images/Bolt.svg";
+// import Axa from "../images/Axa.svg";
 
 const Hero = () => {
 	return (
@@ -29,18 +29,22 @@ const Hero = () => {
 				<div>
 					<p className='font-semibold'>Trusted by over 70,000 business</p>
 					<div className='flex justify-around'>
-						<img src={Dominos} alt='..' />
-						<img src={Mtn} alt='..' />
-						<img src={boltImg} alt='..' />
-						<img src={Axa} alt='..' />
+						{/* <img src={Dominos} alt='' />
+						<img src={Mtn} alt='' />
+						<img src={Bolt} alt='' />
+						<img src={Axa} alt='' /> */}
 					</div>
 				</div>
-				<div>
-					<p>
-						Watch MTN Chief Transformation Officer, Olubayo Adekanmbi, discuss
-						working with Paystack
-					</p>
-					<img src='' alt=',,' />
+				<div className='font-semibold'>
+					<div>
+						<p className='mr-9'>
+							Watch MTN Chief Transformation Officer, Olubayo
+						</p>
+					</div>
+					<div className='pl-14'>
+						<p>Adekanmbi, discuss working with Paystack</p>
+					</div>
+					<img src='' alt='' />
 				</div>
 			</div>
 		</div>
