@@ -20,13 +20,15 @@ const Hero = () => {
 				</button>
 			</div>
 
-			<div className='flex w-full  mt-10 justify-between justify-items-center items-center'>
+			<div className='flex w-full  mt-36 justify-between justify-items-center items-center'>
 				<div>
-					<p>Trusted by over 70,000 business</p>
-					<img src='' alt='..' />
-					<img src='' alt='..' />
-					<img src='' alt='..' />
-					<img src='' alt='..' />
+					<p className='font-semibold'>Trusted by over 70,000 business</p>
+					<div className='flex justify-around'>
+						<img src='' alt='..' />
+						<img src='' alt='..' />
+						<img src='' alt='..' />
+						<img src='' alt='..' />
+					</div>
 				</div>
 				<div>
 					<p>
