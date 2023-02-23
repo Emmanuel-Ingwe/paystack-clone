@@ -17,7 +17,7 @@ const Hero = () => {
 			</p>
 
 			<div className='mt-8'>
-				<button className='px-9 p-1.5 bg-green-500 text-white rounded-lg leading-10 font-semibold'>
+				<button className='bounce px-9 p-1.5 bg-green-500 text-white rounded-lg leading-10 font-semibold'>
 					Create a free account
 				</button>
 				<button className='px-8 text-green-500 font-semibold'>

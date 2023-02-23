@@ -34,7 +34,7 @@ const Navbar = (props) => {
 						<img src={dropArrow} width={8} className='mr-3.5' alt='i' />
 					</div>
 					<li className='mt-3'>Login</li>
-					<button className='px-4 bg-green-500 text-white rounded-lg leading-10 mt-1 mr-4 ml-4'>
+					<button className='px-4 bg-green-500 text-white rounded-lg leading-10 mt-1 mr-4 ml-4 bounce'>
 						Create free account
 					</button>
 					<img

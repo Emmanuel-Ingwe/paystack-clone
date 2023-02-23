@@ -10,3 +10,12 @@
 .color {
 	color: #011b33;
 }
+
+.bounce {
+	transform: translateY(10%);
+	transition: 0.77s;
+}
+
+.bounce:hover {
+	transform: translateY(-4%);
+}
